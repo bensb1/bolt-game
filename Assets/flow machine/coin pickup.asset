@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: coin pickup
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[{"name":"has coin","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-34.00731,"y":110.6045},"zoom":0.8,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-325.0,"y":-213.0},"guid":"32ad23e3-1917-4796-a39a-c89a768d0e57","$version":"A","$type":"Bolt.Start","$id":"10"},{"coroutine":false,"defaultValues":{},"position":{"x":-346.0,"y":4.0},"guid":"3300fc5b-64c1-4974-ad63-c13d29928467","$version":"A","$type":"Bolt.Update"},{"kind":"Application","defaultValues":{"name":{"$content":"player","$type":"System.String"}},"position":{"x":-184.0,"y":-136.0},"guid":"3b12bc92-9937-406d-99eb-25facabd2ad2","$version":"A","$type":"Bolt.SetVariable","$id":"14"},{"defaultValues":{},"position":{"x":-358.0,"y":-119.0},"guid":"538a1a32-8caf-4836-9451-8a35f870a6ca","$version":"A","$type":"Bolt.Self","$id":"16"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"assign","guid":"d0399416-39f2-4127-8e1c-ee7804e513e6","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"self","destinationUnit":{"$ref":"14"},"destinationKey":"input","guid":"0ab7989f-e479-4075-82b2-ce91bba95710","$type":"Bolt.ValueConnection"},{"position":{"xMin":-361.0,"yMin":-255.8889,"xMax":0.0,"yMax":111.1111},"label":"player
+      app  variable","comment":null,"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"guid":"c4f6ea21-e0c3-4597-97fa-18225667de47","$version":"A","$type":"Ludiq.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
